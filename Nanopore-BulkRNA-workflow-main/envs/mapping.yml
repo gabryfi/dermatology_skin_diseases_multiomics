@@ -1,0 +1,10 @@
+name: nanopore_minimap2
+
+channels:
+  - conda-forge
+  - bioconda
+  - nanoporetech
+  - defaults
+  
+dependencies:
+  - minimap2=2.28
